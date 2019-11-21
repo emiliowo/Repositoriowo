@@ -1,0 +1,7 @@
+Integrante: Emilio Vera Barrios
+Seccion: 007D 
+Contraseña Admin: 12345 Nombre de Super Usuario: Emilio
+Links: review/  --Lista
+	review/create/ --Crear
+	review/<pk>/delete/ --Borrar
+	review/<pk>/update/ --Actualizar 
