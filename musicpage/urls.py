@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, include
 from . import views
 
 urlpatterns = [
@@ -12,8 +12,10 @@ urlpatterns = [
 ]
 
 urlpatterns+=[
+   
     path('review/create/', views.ReviewCreate.as_view(), name="review_create"),
     path('review/<pk>/delete/', views.ReviewDelete.as_view(), name="review_delete"),
     path('review/<pk>/update/', views.ReviewUpdate.as_view(), name="review_update"),
+    path('templates/registration', include('django.contrib.auth.urls')),
 
 ]

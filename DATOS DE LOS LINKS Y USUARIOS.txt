@@ -1,7 +1,18 @@
 Integrante: Emilio Vera Barrios
 Seccion: 007D 
 Contraseña Admin: 12345 Nombre de Super Usuario: Emilio
-Links: review/  --Lista
+Usuario de GitHub: Emiliowo
+Links: MAIN PAGE: musicpage/
+	review/  --Lista
 	review/create/ --Crear
 	review/<pk>/delete/ --Borrar
 	review/<pk>/update/ --Actualizar 
+	*links de login*
+	login/ 
+	logout/
+	password_change/ 
+	password_change/done/ 
+	password_reset/ 
+	password_reset/done/ 
+	reset/<uidb64>/<token>/ 
+	reset/done/ 
